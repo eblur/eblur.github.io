@@ -1,4 +1,4 @@
-# Lia Corrales - Assistant Professer of Astronomy, University of Michigan
+# Lia Corrales - Assistant Professor of Astronomy, University of Michigan
 
 Welcome to my Github home page! For more information about my research group, go to [my university site](https://sites.lsa.umich.edu/liacorrales/).
 
