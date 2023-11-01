@@ -10,7 +10,7 @@ This page provides a comprehensive list of my open source projects and data prod
   - Download **CG22_nk.tar.gz** for optical constants
   - Download **make_xsect_files.py** and **cmgavilan.py** to calculate cross-sections with *eblur/newdust*
 
-- **Quiescent Sgr A* spectrum from Chandra-HETG** ([Corrales+ 2020](https://ui.adsabs.harvard.edu/abs/2020ApJ...891...71C/abstract)) | [Zenodo](https://zenodo.org/records/3671413) | [CXC website](https://cxc.cfa.harvard.edu/cda/Contrib/2020/CORR1/)
+- **Quiescent Sgr A-star spectrum from Chandra-HETG** ([Corrales+ 2020](https://ui.adsabs.harvard.edu/abs/2020ApJ...891...71C/abstract)) | [Zenodo](https://zenodo.org/records/3671413) | [CXC website](https://cxc.cfa.harvard.edu/cda/Contrib/2020/CORR1/)
 
 ## Open source projects on Github
 
