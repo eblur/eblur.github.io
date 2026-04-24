@@ -6,8 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Editorial by HTML5 UP</title>
+		<title>L&iacute;a Corrales</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="Public code libraries and datasets from L&iacute;a Corrales, Assistant Professor of Astronomy at the University of Michigan.">
+		<meta name="keywords" content="interstellar dust, grain size distribution, Mie scattering, extinction curves, X-ray spectra, 
+			spectral analysis, Python astronomy, Chandra HETG, specutils, tholins, photochemical hazes, exoplanet aerosols, astromineralogy, 
+			atmospheric escape, exoplanet transits, tutorials">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
@@ -22,7 +26,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>L&iacute;a Corrales</strong> University of Michigan</a>
+									<a href="index.html" class="logo"><strong>eblur </strong>open source</a>
 									<ul class="icons">
 										<li><a href="https://github.com/eblur/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
 										<li><a href="mailto:liac@umich.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
@@ -35,7 +39,7 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>Hi, I'm L&iacute;a Corrales<br />
+											<h1>L&iacute;a Corrales<br />
 											</h1>
 											<p>Assistant Professor of Astronomy at the University of Michigan</p>
 										</header>
@@ -48,108 +52,103 @@
 										</ul>
 										<ul class="actions">
 											<li><a href="https://lsa.umich.edu/astro/people/core-faculty/liac.html" class="button big" target="_blank">
-												UM Astro</a></li>
+												UM Site</a></li>
 										</ul>
 
 									</div>
 									<span class="image object">
-										<img src="images/pic10.jpg" alt="" />
+										<img src="images/headshot.png" alt="" />
 									</span>
 								</section>
 
 							<!-- Section -->
-								<!-- <section>
+								<section id="opensource">
 									<header class="major">
-										<h2>Erat lacinia</h2>
+										<h2>Open Source Projects</h2>
 									</header>
-									<div class="features">
-										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-									</div>
-								</section> -->
+
+									<p>Here you can find a list of my open source libraries used in peer-reviewed publications. 
+										Click on the project names for more information.</p>
+
+									<h3><a href="https://github.com/eblur/newdust" target="_blank">newdust</a></h3>
+									<p>A modular Python library for modeling interstellar dust extinction and attenuation. 
+										It computes dust optical properties (absorption and scattering) as well as X-ray scattering halo images.
+										Users can build and manipulate their own grain size distributions, compositions, and scattering physics. 
+										Common dust grain size distributions, shapes, and optical constants are included for convenience.</p>
+									<p>	First presented in <a href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.1345C/abstract" target="_blank">
+										Corrales et al. (2016)</a>, used in Corrales et al. 
+										<a href="https://ui.adsabs.harvard.edu/abs/2017ApJ...839...76C/abstract" target="_blank">2017</a>,
+										<a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...943L..26C/abstract" target="_blank">2023</a>, 
+										<a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...965..172C/abstract" target="_blank">2024</a>, and
+										<a href="https://ui.adsabs.harvard.edu/abs/2025PASJ...77S.107C/abstract" target="_blank">2025</a>.</p>
+
+
+									<h3><a href="https://github.com/eblur/pyxsis" target="_blank">pyXsis</a></h3>
+									<p>The Pythonic X-ray Spectral Interpretation System</p>
+									<p> A lightweight Python library for working with one dimensional X-ray spectra with the specutils API. 
+										It provides fast spectrum binning, background handling and subtraction, stacking and comparison tools, 
+										some simple spectral models, and plotting helpers. So far it has been designed and test-driven on 
+										Chandra HETG spectra only. It provides a simple framework for working with X-ray spectra in Python 
+										without the need to install XSPEC.</p>
+									<p>First presented in <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...891...71C/abstract" target="_blank">Corrales et al. (2020)</a>,
+									   used in Balakrishnan et al. <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...974...98B/abstract", target="_blank">2024a</a>, 
+									   <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...974...99B/abstract" target="_blank">2024b</a></p>
+
+
+
+								</section>
 
 							<!-- Section -->
-								<!-- <section>
+								<section id="opendata">
 									<header class="major">
-										<h2>Ipsum sed dolor</h2>
+										<h2>Public Datasets</h2>
 									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section> -->
+
+									<!-- <span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+
+									<p>Here you can find a list of my public datasets produced for peer-reviewed publications. 
+										Click on the project titles to access the datasets.
+									</p>
+
+									<!-- <hr class="major" /> -->
+
+									<h3><a href="https://zenodo.org/records/7500026" target="_blank">Tholin optical constants and cross-sections</a></h3>
+									<p>This work is published in <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...943L..26C/abstract" target="_blank">Corrales et al. (2023)</a>. 
+										The dataset includes optical constants for photochemical hazes grown in a laboratory environment with different C/O ratios 
+									    (published in <a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...861..110G/abstract" target="_blank">Gavilan et al., 2018</a>).
+									</p>
+
+									<h3><a href="https://zenodo.org/records/10823180" target="_blank">Fe L optical constants extracted from Lee et al. (2009)</a></h3>
+									<p>This work is published in <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...965..172C/abstract" target="_blank">Corrales et al. (2024)</a>. 
+										The dataset includes optical constants for Fe L absorption measurements presented in 
+										<a href="https://ui.adsabs.harvard.edu/abs/2009ApJ...702..970L/abstract" target="_blank">Lee et al. (2009)</a>.
+									</p>
+
+									<h3><a href="https://zenodo.org/records/3671413" target="_blank">Chandra HETG Spectrum of Quiescent Emission from Sgr A*</a></h3>
+									<p>This work is published in <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...891...71C/abstract" target="_blank">Corrales et al. (2020)</a>.
+									</p>
+								</section>
+							
+							<!-- Section -->
+								<section id="tutorials">
+									<header class="major">
+										<h2>Tutorials</h2>
+									</header>
+
+									<p> I have written and contributed to a number of publicly available tutorials. 
+										Click on the project titles to access the content.</p>
+
+									<!-- <hr class="major" /> -->
+
+									<h3><a href="https://zenodo.org/records/3973086" target="_blank">Identifying Dust Features in High Resolution X-ray Spectra</a></h3>
+									<p> Presented at the AtomDB Spectroscopy School in 2020, this tutorial describes the impact of dust scattering halos on high resolution
+										spectra of point sources. It discuss the various trade-offs of current models and demonstrates how to set up an appropriate 
+										ISM extinction scheme with publicly available XSPEC models.
+									</p>
+
+									<h3><a href="https://learn.astropy.org/" target="_blank">Learn Astropy tutorials</a></h3>
+
+								</section>
 
 						</div>
 					</div>
@@ -171,32 +170,10 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="index.html">About</a></li>
-										<li><a href="opensource.html">Open Source Projects</a></li>
-										<li><a href="opendata.html">Public Datasets</a></li>
-										<!-- <li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Etiam Dolore</a></li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li> -->
+										<li><a href="index.html#banner">About</a></li>
+										<li><a href="index.html#opensource">Open Source Projects</a></li>
+										<li><a href="index.html#opendata">Public Datasets</a></li>
+										<li><a href="index.html#tutorials">Tutorials</a></li>
 									</ul>
 								</nav>
 							
@@ -205,7 +182,7 @@
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
-									<p>Students can reach out to me for any questions or collaborations.</p>
+									<!-- <p>Students can reach out to me for any questions or collaborations.</p> -->
 									<ul class="contact">
 										<li class="icon solid fa-envelope"><a href="#">liac [at] umich [dot] edu</a></li>
 										<!-- <li class="icon solid fa-phone">(000) 000-0000</li>
@@ -214,47 +191,9 @@
 									</ul>
 								</section>
 
-							<!-- Section -->
-								<!-- <section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section> -->
-
-							<!-- Section -->
-								<!-- <section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-										<li class="icon solid fa-phone">(000) 000-0000</li>
-										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section> -->
-
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+									<p class="copyright">&copy; L. Corrales. All rights reserved. <br> Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 								</footer>
 
 						</div>
